@@ -8,7 +8,7 @@ const segundoNumero = 2;
 const operacaoMatematica = primeiroNumero + segundoNumero;
 console.log("Resultado: ", operacaoMatematica);
 
-
 //ponto flutuante
 const numeroFlutuante = 3.3;
+const pontoFlutuanteSemZero = .5;
 console.log();
