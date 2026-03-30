@@ -1,9 +1,9 @@
-// tipo number
+//tipo number
 
-const meuNumero = 3;
-console.log (meuNumero);
+const meuNumero = 3; //constante não altera
+console.log (meuNumero); //apresentação
 
-let soma = 3 + 3;
-console.log (soma);
-
-console.log(soma + 7)
+const primeiroNumero = 1;
+const segundoNumero = 2;
+const operacaoMatematica = primeiroNumero + segundoNumero;
+console.log("Resultado: ", operacaoMatematica);
