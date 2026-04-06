@@ -16,4 +16,18 @@ console.log(area);
 
 // let = variavel local, funciona dentro do escopo definido, dentro de uma estrutura, por exemplo {}.
 
-let idade = 15;
+let forma = "retangulo";
+let alt = 6;
+let comp = 8;
+let areaForma;
+
+if (forma === "retangulo"){
+
+    areaForma = alt * comp;
+
+} else {
+
+   areaForm = (alt * comp)/2;
+
+}
+console.log(areaForma);
