@@ -10,3 +10,9 @@ console.log( "Senha:", senha);
 
 const citacao = "Meu nome é ";
 console.log(citacao + nome);
+
+//template string ou templeta literal
+//  \u0024
+
+const cifrao = '\u0024';
+console.log(cifrao);
