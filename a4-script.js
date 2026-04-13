@@ -19,15 +19,42 @@ console.log(area);
 let forma = "retangulo";
 let alt = 6;
 let comp = 8;
-let areaForma;
+let areaForma; //let não permite utilizar a variavel antes dela ser declarada.
 
 if (forma === "retangulo"){
 
     areaForma = alt * comp;
 
+    //else = senão
 } else {
 
    areaForm = (alt * comp)/2;
 
 }
 console.log(areaForma);
+
+// ----------------------- TESTE --------------------
+
+// 2 igual: == 
+
+if ("5" == 5){
+
+    console.log("true");
+
+}else{
+
+    console.log("false");
+
+}
+
+//3 igual: ===
+
+if ("5" === 5){
+
+    console.log("true");
+
+}else{
+
+    console.log("false");
+
+}
