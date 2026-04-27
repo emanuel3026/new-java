@@ -5,7 +5,7 @@ let segundoNumero = "5";
 console.log(primeiroNumero == segundoNumero)
 
 // 1 = atribui
-// 2 == compara se os valores são iguais, independentes de tipo
+// 2 == compara se os valores se são iguais, independentes de tipo
 // se for sting com número, faz a conversão.
 
 console.log(primeiroNumero === segundoNumero);

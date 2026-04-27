@@ -18,7 +18,7 @@ ligado = "569";
 
 //podemos utilar o navegador como interpretador
 
-//NodeJS é uma ferramenta uqe foi desenvolvida em 2010, bem depois que o javaScript foi lançado.
+//NodeJS é uma ferramenta que foi desenvolvida em 2010, bem depois que o javaScript foi lançado.
 
 //NodeJS norlmalmente é utilizado no back-and.
 //Deno é alternativo ao NodeJS.
