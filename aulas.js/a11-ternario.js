@@ -14,3 +14,11 @@ if (idadeDoCliente >= idadeMin){
         console.log("você não tem mais doque 18 anos");
 
 }
+
+if(idadeMin >= idadeDoCliente){
+
+        console.log("Você pode fazer a carteira de habilitação");
+
+}else{
+        console.log("Você não tem 18 anos, você não pode fazer a cartira de habilitação")
+}
