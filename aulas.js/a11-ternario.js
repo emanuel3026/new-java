@@ -29,10 +29,7 @@ console.log("permissão para direigir: ", permissao);
 
 //outro exemplo
 // condição ? resposta V : resposta F;
-// emanuel augusto begnini
-//júlio Cezar lourenço Valmorbida
-//digitar sem olhar quando você decora o teclado fica bem mais fácil 
-let selecao = "Brasil";
+//let selecao = "Brasil";
 console.log(selecao == "Brasil" ? "O hexa é nosso" : " fica pra proxima");*/
 
 var itens = 3;
