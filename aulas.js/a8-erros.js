@@ -1,4 +1,4 @@
-//const numero; //uma const não pode ser cirada sem um valor
+//const numero; //uma const não pode ser criada sem um valor
 /* Syntax/error: na maior parte dos casos JavaScript não consegue executa-lo. Os erros podem ser métodos 
 ou propriedades escritos ou utilizados de forma incorreta, por exemplo, operadores ou sinais gráficos com
 elementos a menos, como esquecer de fechar chaves ou couchetes*/
