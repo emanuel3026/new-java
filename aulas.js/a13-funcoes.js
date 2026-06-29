@@ -64,4 +64,9 @@ ImpremeTexto(idade(27,10,2002));
 resposta = idade(27,10,2002);
 
 carteiraDeMotorista = resposta - 18;
-console.log('Tem CNH há '+ carteiraDeMotorista + ' anos ')
+console.log('Tem CNH há '+ carteiraDeMotorista + ' anos ');
+
+/* outras funções
+
+    Math.round(): arredondamento de um número de ponto flutuante para inteiro mais proximo
+*/
