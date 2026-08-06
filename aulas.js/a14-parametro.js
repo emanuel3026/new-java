@@ -2,13 +2,17 @@
 
 
 
-}
+}*/
 function soma(numero1, numero2){
 
-    return
+    //calcular = numero1+numero2
+    return numero1+numero2
 
 }
-console.log(soma(10,15))*/
+console.log(soma(10,15))
+//expressão de função - consideradas anonimas
+
+
 
 function nomeIdade(nome, idade){
 
