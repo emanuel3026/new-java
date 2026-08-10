@@ -22,3 +22,11 @@ function nomeIdade(nome, idade){
 
 texto = nomeIdade("Emanuel", 16);
 //console.log(texto);
+
+/*diferença entre as funcões
+na declaração de função é possível chamar a função antes de cria-la
+
+function nomeIdade(nome, idade){
+
+    return `Meu nome é ${nome} e minha idade é ${idade}`;
+}
