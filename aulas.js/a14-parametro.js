@@ -29,4 +29,4 @@ na declaração de função é possível chamar a função antes de cria-la
 function nomeIdade(nome, idade){
 
     return `Meu nome é ${nome} e minha idade é ${idade}`;
-}
+}*/
