@@ -35,11 +35,21 @@ const verefica = num1 => {
 console.log (verefica (10))
 
 const multNum = (num1 , num2) => {
-    if (num1 < 9 || num2 < 9) {
-        return 'são apenas permitidos numeros entre 1 e 9'
-    }
-    else {
-        return `o seu valor é ${num1 * num2}`
+    if((num1 > 0 & num1 < 10) & (num2 > 0 & num2 < 10)) {
+        return num1 * num2;
+
+    }else{
+        return "numeros entre 1 e 9"
     }
 }
-console.log (multNum (10, 11));
+console.log (multNum (9, 2));
+
+/*const login = (user, senha){
+
+    if((user == "admin" || user == "118.305.379-70") & senha == "123"){
+
+
+
+    }
+
+}*/
