@@ -1,13 +1,19 @@
 const prompt = require('prompt-sync')();
-const num1 = prompt("Informe o primeiro valor inteiro: ")
-const num2 = prompt("Informe o segundo valor inteiro: ")
+const v1 = prompt("Informe o primeiro valor inteiro: ")
+const v2 = prompt("Informe o segundo valor inteiro: ")
 
-if(num1 > 10 & num2 > 10){
+const operacao = (v1,v2) => {
 
-    console.log(`A multiplicação de ${num1} com ${num2} é: ${num1*num2} `)
+   if(v1 < 10 ){
 
-}else if(num1 < 10){
+        return Math.pow(v1, 2) + Math.pow(v2, 3);
 
-    console.log(Math.pow(num1, 2) + Math.pow(num2, 3))
+   } else {
+
+    return v1 * v2;
+
+   }
 
 }
+
+console.timeLog(operacao);
