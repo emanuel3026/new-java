@@ -11,5 +11,9 @@ const media = (nota1+nota2+nota3+nota4)/4;*/
 
 const notas = [10, 6.5, 8, 7.5];
 
-const media = (notas[0]+notas[1]+notas[2]+notas[3]) / notas.length //length = tamanho
+/*const media = (notas[0]+notas[1]+notas[2]+notas[3]) / notas.length //length = tamanho*/
+// Criar uma função para somar os valores de forma automatica
+const sum = (arg) => arg.reduce((acc, curr) => acc + curr,0)
+
+const media = sum(notas)
 console.log(media)
