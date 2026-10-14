@@ -1,3 +1,6 @@
+//cd aulas.js
+//dir
+
 const prompt = require('prompt-sync')();
 /*const v1 = prompt("Informe o primeiro valor inteiro: ")
 const v2 = prompt("Informe o segundo valor inteiro: ")
