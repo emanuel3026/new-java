@@ -114,3 +114,49 @@ const multiplica = numeros.reduce(
 );
 
 console.log(`multiplica: ${multiplica}`)
+
+/*.toReverse()
+
+Inverte a ordem do array, então o primeiro vira o ultimo, o segundo o penultimo, e assim por diante*/
+
+const original = [1,2,3];
+const reversed = original.toReversed();
+console.log(`Original ${original} e o invertido ${reversed}`)
+
+/*.slice
+
+Copia uma parte do array para outro array. Fatiamento do array*/
+
+const frutas = ["Maça","Pera","Manga","Uva","Melancia"]
+const algumasFrutas = frutas.slice(1,4);
+console.log(algumasFrutas)
+/*slice(indice inicial, indice final -1) */
+
+/*.sort
+
+Organiza o array de acordo co, a classificação unicode, onde os numeros vem antes das letras,
+ porem não funciona corretamente para números onde temos que definir uma função que irá avaliar
+*/
+
+const fruits = ["Maça","Pera","Manga","Uva","Melancia"];
+console.log(fruits.sort())
+
+const number = [10, 5, 100, 2, 25]
+console.log(number.sort());
+
+number.sort((a,b) => a - b);
+console.log(number)
+
+number.sort((a,b) => b - a);
+console.log(number)
+
+/*.splice()
+
+    Consegue remover 1 ou mais elementos consecutivos caso o segundo parametro seja maior que 0, ou incluir 1 ou mais elementos
+    a partir de um indice escolhido.
+*/
+
+console.log(`Frutas originais: ${frutas}`)
+const removed = frutas.splice(1,2)
+console.log(`Frutas apos remoção: ${frutas}`)
+console.log(`Frutas removidas: ${removed}`)
